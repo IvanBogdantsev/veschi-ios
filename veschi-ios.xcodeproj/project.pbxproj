@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E499ED72C0A4BC1008B8C39 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 4E499ED62C0A4BC1008B8C39 /* RxCocoa */; };
+		4E499ED92C0A4BC1008B8C39 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4E499ED82C0A4BC1008B8C39 /* RxRelay */; };
+		4E499EDB2C0A4BC1008B8C39 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4E499EDA2C0A4BC1008B8C39 /* RxSwift */; };
+		4E499EDE2C0A4C11008B8C39 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4E499EDD2C0A4C11008B8C39 /* Alamofire */; };
+		4E499EE12C0A4C1C008B8C39 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E499EE02C0A4C1C008B8C39 /* SnapKit */; };
+		4E73FD632C0A4F5100A95CCD /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73FD622C0A4F5100A95CCD /* DIContainer.swift */; };
+		4E8050142C0A50B100297C66 /* AnimationDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E804FFE2C0A50B100297C66 /* AnimationDuration.swift */; };
+		4E8050152C0A50B100297C66 /* DisplaysLoaderInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E804FFF2C0A50B100297C66 /* DisplaysLoaderInterface.swift */; };
 		4ED8B6DA2C0A32BD007D78B5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6A92C0A32BD007D78B5 /* LoadingView.swift */; };
 		4ED8B6DB2C0A32BD007D78B5 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6AB2C0A32BD007D78B5 /* Observable.swift */; };
 		4ED8B6DC2C0A32BD007D78B5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6AC2C0A32BD007D78B5 /* String.swift */; };
@@ -29,8 +37,6 @@
 		4ED8B6ED2C0A32BD007D78B5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6C52C0A32BD007D78B5 /* Router.swift */; };
 		4ED8B6EE2C0A32BD007D78B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED8B6C82C0A32BD007D78B5 /* Assets.xcassets */; };
 		4ED8B6F02C0A32BD007D78B5 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6CA2C0A32BD007D78B5 /* Keys.swift */; };
-		4ED8B6F12C0A32BD007D78B5 /* AnimationDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6CC2C0A32BD007D78B5 /* AnimationDuration.swift */; };
-		4ED8B6F22C0A32BD007D78B5 /* DisplayLoaderInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6CD2C0A32BD007D78B5 /* DisplayLoaderInterface.swift */; };
 		4ED8B6F72C0A32BD007D78B5 /* SplashAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6D42C0A32BD007D78B5 /* SplashAssembly.swift */; };
 		4ED8B6F82C0A32BD007D78B5 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6D52C0A32BD007D78B5 /* SplashViewController.swift */; };
 		4ED8B6F92C0A32BD007D78B5 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B6D62C0A32BD007D78B5 /* SplashViewModel.swift */; };
@@ -38,6 +44,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E73FD622C0A4F5100A95CCD /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		4E804FFE2C0A50B100297C66 /* AnimationDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDuration.swift; sourceTree = "<group>"; };
+		4E804FFF2C0A50B100297C66 /* DisplaysLoaderInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaysLoaderInterface.swift; sourceTree = "<group>"; };
 		4EA24B3A2C0A3284000380A4 /* veschi-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "veschi-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED8B6A92C0A32BD007D78B5 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		4ED8B6AB2C0A32BD007D78B5 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
@@ -62,8 +71,6 @@
 		4ED8B6C82C0A32BD007D78B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ED8B6C92C0A32BD007D78B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED8B6CA2C0A32BD007D78B5 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
-		4ED8B6CC2C0A32BD007D78B5 /* AnimationDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDuration.swift; sourceTree = "<group>"; };
-		4ED8B6CD2C0A32BD007D78B5 /* DisplayLoaderInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayLoaderInterface.swift; sourceTree = "<group>"; };
 		4ED8B6D42C0A32BD007D78B5 /* SplashAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashAssembly.swift; sourceTree = "<group>"; };
 		4ED8B6D52C0A32BD007D78B5 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		4ED8B6D62C0A32BD007D78B5 /* SplashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
@@ -75,12 +82,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E499ED92C0A4BC1008B8C39 /* RxRelay in Frameworks */,
+				4E499EDE2C0A4C11008B8C39 /* Alamofire in Frameworks */,
+				4E499ED72C0A4BC1008B8C39 /* RxCocoa in Frameworks */,
+				4E499EDB2C0A4BC1008B8C39 /* RxSwift in Frameworks */,
+				4E499EE12C0A4C1C008B8C39 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E0A14FD2C0A4FD100BCD7E3 /* Ressources  */ = {
+			isa = PBXGroup;
+			children = (
+				4ED8B6B72C0A32BD007D78B5 /* Strings.swift */,
+				4ED8B6C82C0A32BD007D78B5 /* Assets.xcassets */,
+			);
+			path = "Ressources ";
+			sourceTree = "<group>";
+		};
+		4E8050122C0A50B100297C66 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4E804FFE2C0A50B100297C66 /* AnimationDuration.swift */,
+				4E804FFF2C0A50B100297C66 /* DisplaysLoaderInterface.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		4EA24B312C0A3284000380A4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				4ED8B6C72C0A32BD007D78B5 /* Core */,
-				4ED8B6CE2C0A32BD007D78B5 /* Helpers */,
+				4E8050122C0A50B100297C66 /* Helpers */,
 				4ED8B6B82C0A32BD007D78B5 /* Library */,
 				4ED8B6BB2C0A32BD007D78B5 /* Locales */,
 				4ED8B6D92C0A32BD007D78B5 /* Scenes */,
@@ -156,7 +186,7 @@
 				4ED8B6B02C0A32BD007D78B5 /* Extensions */,
 				4ED8B6B12C0A32BD007D78B5 /* Models */,
 				4ED8B6B62C0A32BD007D78B5 /* Styles */,
-				4ED8B6B72C0A32BD007D78B5 /* Strings.swift */,
+				4E0A14FD2C0A4FD100BCD7E3 /* Ressources  */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -211,6 +241,7 @@
 			children = (
 				4ED8B6BE2C0A32BD007D78B5 /* Application */,
 				4ED8B6C62C0A32BD007D78B5 /* Coordinatable */,
+				4E73FD622C0A4F5100A95CCD /* DIContainer.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -218,20 +249,10 @@
 		4ED8B6CB2C0A32BD007D78B5 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				4ED8B6C82C0A32BD007D78B5 /* Assets.xcassets */,
 				4ED8B6C92C0A32BD007D78B5 /* Info.plist */,
 				4ED8B6CA2C0A32BD007D78B5 /* Keys.swift */,
 			);
 			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		4ED8B6CE2C0A32BD007D78B5 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				4ED8B6CC2C0A32BD007D78B5 /* AnimationDuration.swift */,
-				4ED8B6CD2C0A32BD007D78B5 /* DisplayLoaderInterface.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		4ED8B6D72C0A32BD007D78B5 /* Splash */ = {
@@ -269,6 +290,13 @@
 			dependencies = (
 			);
 			name = "veschi-ios";
+			packageProductDependencies = (
+				4E499ED62C0A4BC1008B8C39 /* RxCocoa */,
+				4E499ED82C0A4BC1008B8C39 /* RxRelay */,
+				4E499EDA2C0A4BC1008B8C39 /* RxSwift */,
+				4E499EDD2C0A4C11008B8C39 /* Alamofire */,
+				4E499EE02C0A4C1C008B8C39 /* SnapKit */,
+			);
 			productName = "veschi-ios";
 			productReference = 4EA24B3A2C0A3284000380A4 /* veschi-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -297,6 +325,11 @@
 				Base,
 			);
 			mainGroup = 4EA24B312C0A3284000380A4;
+			packageReferences = (
+				4E499ED52C0A4BC1008B8C39 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				4E499EDC2C0A4C11008B8C39 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4E499EDF2C0A4C1C008B8C39 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4EA24B3B2C0A3284000380A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -323,8 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED8B6F12C0A32BD007D78B5 /* AnimationDuration.swift in Sources */,
-				4ED8B6F22C0A32BD007D78B5 /* DisplayLoaderInterface.swift in Sources */,
 				4ED8B6ED2C0A32BD007D78B5 /* Router.swift in Sources */,
 				4ED8B6DC2C0A32BD007D78B5 /* String.swift in Sources */,
 				4ED8B6E22C0A32BD007D78B5 /* Images.swift in Sources */,
@@ -336,6 +367,7 @@
 				4ED8B6DD2C0A32BD007D78B5 /* UIColor.swift in Sources */,
 				4ED8B6DE2C0A32BD007D78B5 /* UIStackView.swift in Sources */,
 				4ED8B6EB2C0A32BD007D78B5 /* BaseNavigationController.swift in Sources */,
+				4E8050142C0A50B100297C66 /* AnimationDuration.swift in Sources */,
 				4ED8B6FA2C0A32BD007D78B5 /* SceneAssembly.swift in Sources */,
 				4ED8B6E72C0A32BD007D78B5 /* SceneDelegate.swift in Sources */,
 				4ED8B6E42C0A32BD007D78B5 /* Strings.swift in Sources */,
@@ -348,6 +380,8 @@
 				4ED8B6DF2C0A32BD007D78B5 /* UIView.swift in Sources */,
 				4ED8B6F82C0A32BD007D78B5 /* SplashViewController.swift in Sources */,
 				4ED8B6F72C0A32BD007D78B5 /* SplashAssembly.swift in Sources */,
+				4E8050152C0A50B100297C66 /* DisplaysLoaderInterface.swift in Sources */,
+				4E73FD632C0A4F5100A95CCD /* DIContainer.swift in Sources */,
 				4ED8B6EC2C0A32BD007D78B5 /* Coordinatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,6 +600,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E499ED52C0A4BC1008B8C39 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		4E499EDC2C0A4C11008B8C39 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		4E499EDF2C0A4C1C008B8C39 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E499ED62C0A4BC1008B8C39 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E499ED52C0A4BC1008B8C39 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		4E499ED82C0A4BC1008B8C39 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E499ED52C0A4BC1008B8C39 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		4E499EDA2C0A4BC1008B8C39 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E499ED52C0A4BC1008B8C39 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		4E499EDD2C0A4C11008B8C39 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E499EDC2C0A4C11008B8C39 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4E499EE02C0A4C1C008B8C39 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E499EDF2C0A4C1C008B8C39 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4EA24B322C0A3284000380A4 /* Project object */;
 }
